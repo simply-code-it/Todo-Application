@@ -21,7 +21,7 @@ A simple yet elegant todo application built with React, Redux, TypeScript and Ch
 
 # Installation
 ## Clone the repository: 
-git clone https://github.com/your-username/todo-app.git
+git clone https: https://github.com/simply-code-it/Todo-Application.git
 
 # Navigate into the project directory:
 cd todo-app
