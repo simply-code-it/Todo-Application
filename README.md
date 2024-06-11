@@ -1,7 +1,7 @@
 
 
 
-#Todo Application
+# Todo Application
 A simple yet elegant todo application built with React, Redux, and Chakra UI.
 
 ## Deployment Link: https://todo-application-git-main-pradeeps-projects-1bc2c173.vercel.app/
