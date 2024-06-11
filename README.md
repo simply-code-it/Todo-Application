@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Todo Application
+A simple yet elegant todo application built with React, Redux, and Chakra UI.
 
-## Expanding the ESLint configuration
+## Deployment Link: https://todo-application-git-main-pradeeps-projects-1bc2c173.vercel.app/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Features
+- Add, delete todo items
+- Mark todo items as completed
+- Elegant user interface with Chakra UI
+- State management with Redux
 
-- Configure the top-level `parserOptions` property like this:
+# Technologies Used
+- React
+- Redux
+- Chakra UI
+- TypeScript
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Installation
+## Clone the repository: 
+git clone https://github.com/your-username/todo-app.git
+
+# Navigate into the project directory:
+cd todo-app
+
+# Install dependencies:
+npm install
+
+# Start the development server:
+npm run dev
+# Usage
+- Add a new todo by entering a title and description in the input fields and clicking the "Add Todo" button.
+- Mark a todo item as completed by clicking the checkbox next to it.
+- Delete a todo item by clicking the delete icon next to it.
+
+# Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Acknowledgements
+Inspired by TodoMVC
+Built with ❤️ by Pradeep Yadav
