@@ -10,7 +10,7 @@ interface Todo {
 
 const initialState: Todo[] = [];
 
-const todoReducer = (state = initialState, action): Todo[] => {
+const todoReducer = (state = initialState, action:any): Todo[] => {
   switch (action.type) {
     case ADD_TODO:
       return [...state, action.payload];
